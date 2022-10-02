@@ -1,0 +1,18 @@
+package cycles;
+
+import java.util.Scanner;
+
+public class Task3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите целое положительное число: ");
+        int num = sc.nextInt();
+        int sum = 0;
+        for (int i = 1; i < num; i++) {
+            sum = sum + i;
+
+        }
+        System.out.println("Сумма всех чисел до введенного вами числа = " + sum);
+
+    }
+}
